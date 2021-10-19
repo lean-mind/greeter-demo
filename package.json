@@ -1,0 +1,33 @@
+{
+  "name": "@ulisesantana/hello-world",
+  "version": "0.2.0",
+  "description": "A greeter CLI",
+  "main": "lib/greeter.js",
+  "bin": {
+    "hi": "bin/greeter.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest"
+  },
+  "keywords": [
+    "greeter",
+    "hello world",
+    "cli"
+  ],
+  "author": "Ulises Santana <ulises.santana@leanmind.es>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6"
+  }
+}
